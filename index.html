@@ -8,13 +8,13 @@ body {
 	margin: 0;
 	padding: 0;
 	border-width: 0;
-	background-image: url('ColvardAcademy.github.io/IMG_2244.JPG');
+	background-image: url('ahuskynamedmalakai.github.io/IMG_20180810_082205_926.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
 
-
+/*text formatting for rest of site for uniformity*/
 h1 {
 	text-align: center;
 	color: rgb(25,100,25);
@@ -57,35 +57,12 @@ p {
 	font-size: 16px;
 	color: rgb(0,0,0);
 }
-p.boxmargin {
-	margin-left: 10vw;
-	margin-right: 10vw;
+
+
+
+
+.title_text {
 	position: relative;
-}
-
-
-.box{
-	padding-bottom: 40px;
-}
-.box a{
-    background-color: white;
-    color: black;
-    border: 3px solid green;
-    padding: 10px 20px;
-	font-size: 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.box a:hover{
-    background-color: green;
-    color: white;
-}
-
-
-.a {
-	position: absolute;
 	top: 0px;
 	left: 0;
     width: 100%;
@@ -96,15 +73,16 @@ p.boxmargin {
 	background-color: rgba(20,180,20,0.4);
 }
 
-.b {
-	position: absolute;
-	top: 280px;
-	left: 0;
-    width: 100%;
-    height: 250px;
-    padding-top: 40px;
-	margin: 0px; 
-	z-index: 1;
+
+/*This section allows for the image boxes*/
+div.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.container {
+  padding: 10px;
 }
 
 
@@ -115,15 +93,16 @@ p.boxmargin {
 
 
 
-<div class="a">
+<div class="title_text">
 	<h1 style="position:relative; top:50px; text-align:center;">A Husky Named Malakai</h1>
 	<h4 style="position:relative; top:50px; text-align:center;">Hoomans! Follow me on the social medias!</h4>
 </div>
 
-<div class="b">
-	<div class="box">
-		<center><a><b>About Malakai</b></a></center>
-	</div>
+<div class="polaroid">
+  <img src="" alt="Norway" style="width:100%">
+  <div class="container">
+    <p>About Malakai</p>
+  </div>
 </div>
 
 </body>
